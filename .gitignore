@@ -1,0 +1,15 @@
+/target
+/lib
+/classes
+/checkouts
+/resources/public/cljs/*
+pom.xml
+*.jar
+*.class
+*.swp
+.lein-deps-sum
+.lein-failures
+.lein-plugins
+.lein-env
+.lein-cljsbuild*
+nohup*

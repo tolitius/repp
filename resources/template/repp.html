@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>I know my ocd.. ocr &amp; barcodes..</title>
+        <link rel="stylesheet" type="text/css" href="css/bc-scanner.css"/>
+    </head>
+    <body>
+        <form id="barcode-form" method="post" enctype="multipart/form-data">
+            <div id="container">
+                <div id="capture">
+                    <div id="ocr-it">
+                        <input id="ocr-pic" name="ocr-pic" type="file" accept="image/*;capture=camera" />
+                    </div>
+                    <div id="scan-it">
+                        <input id="barcode-pic" name="barcode-pic" type="file" accept="image/*;capture=camera" />
+                    </div>
+                    <div id="results">
+                        <h1><p id="result"></p></h1>
+                        <hr/>
+                        <img id="pic" src="#" alt="..magic is coming soon" />
+                    </div>
+                </div>
+              </div>
+        </form>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"/>
+        <script type="text/javascript" src="cljs/repp.js"/>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+#pic {
+    margin: 0 auto;
+    display: none;
+}
+
+input[type="file"] {
+    opacity: 0;
+    width: 307px;
+    height: 307px;
+}
+
+#text {
+    text-align: left;
+}
+
+#container {
+  margin: 0 10%;
+  padding-top: 50px;
+}
+
+
+#capture {
+  clear: both;
+  height: 308px;
+}
+
+#results {
+  clear: both;
+}
+
+#result {
+  text-align: left;
+  padding-top: 40px;
+}
+
+#scan-it{ 
+  background:url(../img/scan-it.png) no-repeat 0 0; 
+  display: inline-block;
+  float: right;
+  padding-right: 40px;
+}
+
+#ocr-it{ 
+  background:url(../img/ocr-it.png) no-repeat 0 0; 
+  display: inline-block;
+  float: left;
+  padding-left: 40px;
+}
