@@ -1,14 +1,15 @@
-# repp: ^Read Evaluate Print Profit$
+# repp
+**R**ead **E**valuate **P**rint **P**rofit
 
 ## Scan Them Barcodes
 
-Phone    =>  Take a Picture with Barcode    => Barcode Value
-Browser  =>  Select a Picture with Barcode  => Barcode Value
+* Phone    =>  Take a Picture with Barcode    => Barcode Value
+* Browser  =>  Select a Picture with Barcode  => Barcode Value
 
 ## OCR That Text
 
-Phone    =>  Take a Picture with Text    => OCR it
-Browser  =>  Select a Picture with Text  => OCR it
+* Phone    =>  Take a Picture with Text    => OCR it
+* Browser  =>  Select a Picture with Text  => OCR it
 
 ## License
 

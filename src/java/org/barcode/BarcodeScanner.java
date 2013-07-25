@@ -15,8 +15,6 @@ import java.io.File;
 import java.io.InputStream;
 import java.io.ByteArrayInputStream;
 
-import sun.misc.BASE64Decoder;
-
 public class BarcodeScanner {
 
 	public static String decodeFromFile( File barcode ) {
