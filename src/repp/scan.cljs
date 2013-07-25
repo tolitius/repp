@@ -12,8 +12,11 @@
 
 (def db (atom nil))
 
-(defn show-code [code]
-  (jq/html $result code))
+(defn show-code [scan-result]
+  (let [{:keys [found number reason]} (reader/read-string scan-result)]
+    (if found
+      (jq/html $result number)
+      (jq/html $result reason))))
 
 (defn show-text [text]
   (jq/html $result text))
